@@ -28,7 +28,7 @@ Variables are indicated using the standard convention of prefixing them with a q
 
 ##### Example1:
 
-| hasParent(?x,?y) ∧ hasBrother(?y,?z) ⇒ hasUncle(?x,?z) |
+ > hasParent(?x,?y) ∧ hasBrother(?y,?z) ⇒ hasUncle(?x,?z)
 
 For example, "If X has a parent of Y and Y has a brother of Z, then it infers that X has an uncle of Z."
 
