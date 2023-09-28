@@ -189,7 +189,9 @@ As powerful as SWRL is, we can also extract or retrieve data using SQWRL, this q
 
 ## References
 [1] [W3C](https://www.w3.org/submissions/SWRL/) at W3C
+
 [2] [The Semantic Web Rule Language Expressiveness Extensions-A Survey](https://arxiv.org/pdf/1903.11723.pdf)
+
 [3] [The Semantic Web Rule Language](https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf) 
 
 
