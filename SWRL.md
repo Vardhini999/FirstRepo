@@ -34,6 +34,30 @@ For example, "If X has a parent of Y and Y has a brother of Z, then it infers th
 
 #### SWRL Semantics
 
+The constructs of atoms can either be in the form of OWL-DL class descriptions, individual-valued properties, data-valued properties, OWL same individuals, OWL different individuals, or the specific built-in functions.
+
+        | C(i) | R(i, j) | D(v) | U(i,v) | builtIn(p, v1,…,vn) | i = j | i ≠ j |
+
+C = Class						
+D = Data type
+R = Object Property					
+U = Data type Property
+i, j = Object variable names or Object individual names
+v1,…, vn = Data type variable names or Data type value names
+p = Built-in names
+
+SWRL atoms in the antecedent (body) are satisfied,
+•	if it is empty (trivially true)
+•	or every atom of it is satisfied
+SWRL atom in the consequent (head) is satisfied,
+•	if it is not empty
+•	and it is satisfied
+A rule is satisfied by an interpretation of ‘I’ iff every binding B(I) that satisfies the antecedent B(I) satisfies the consequent
+Using this syntax, a rule asserting that the composition of parent and brother properties implies the uncle property can be written as:
+
+#### Example2: 
+        person(?x) ∧ hasAge(?x, ?age) ∧ swrlb:greaterThan(?age, 18) → adult(?x)
+
 
 
 
