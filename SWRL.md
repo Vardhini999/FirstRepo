@@ -39,12 +39,12 @@ The [constructs of atoms](https://protege.stanford.edu/conference/2009/slides/SW
 
         | C(i) | R(i, j) | D(v) | U(i,v) | builtIn(p, v1,…,vn) | i = j | i ≠ j |
 
-C = Class						
-D = Data type
-R = Object Property					
-U = Data type Property
-i, j = Object variable names or Object individual names
-v1,…, vn = Data type variable names or Data type value names
+C = Class;						
+D = Data type;
+R = Object Property;					
+U = Data type Property;
+i, j = Object variable names or Object individual names;
+v1,…, vn = Data type variable names or Data type value names;
 p = Built-in names
 
 SWRL atoms in the antecedent (body) are satisfied,
