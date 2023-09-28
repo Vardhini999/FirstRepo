@@ -10,7 +10,7 @@
 
 ### What is SWRL ?
 
-SWRL stands for Semantic Web Rule Language, a **rule-based language** proposed to combine structured world of ontologies and inferential capabilities of rule-based reasoning. It is a conjunction of OWL 2 DL with a subset of RuleML[2](https://arxiv.org/pdf/1903.11723.pdf), applying rules of datalog/RuleML onto OWL ontologies. It acts more like a complement to the knowledge represented in ontologies for more expressive semantic reasoning.
+SWRL stands for Semantic Web Rule Language, a **rule-based language** proposed to combine structured world of ontologies and inferential capabilities of rule-based reasoning. It is a conjunction of ["OWL 2 DL with a subset of RuleML"](https://arxiv.org/pdf/1903.11723.pdf), applying rules of datalog/RuleML onto OWL ontologies. It acts more like a complement to the knowledge represented in ontologies for more expressive semantic reasoning.
 
 ### What was the need for SWRL ?
 
@@ -18,7 +18,8 @@ Even with various powerful data modelling and knowledge representation standards
 
 ### SWRL Syntax
 
-SWRL rules are typically an implication between an antecedent (body) and consequent (head). This can be interpreted as: whenever the conditions specified in the antecedent hold, then the conditions specified in the consequent must also hold [1](https://www.w3.org/submissions/SWRL/).
+["SWRL"](https://www.w3.org/submissions/SWRL/) rules are typically an implication between an antecedent (body) and consequent (head). This can be interpreted as: whenever the conditions specified in the antecedent hold, then the conditions specified in the consequent must also hold.
+
 a human readable syntax rule has the form:
 
     antecedent (body) ⇒ consequent (head)
@@ -34,7 +35,7 @@ For example, "If X has a parent of Y and Y has a brother of Z, then it infers th
 
 ### SWRL Semantics
 
-The constructs of atoms can either be in the form of OWL-DL class descriptions, individual-valued properties, data-valued properties, OWL same individuals, OWL different individuals, or the specific built-in functions [3](https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf).
+The ["constructs of atoms"](https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf) can either be in the form of OWL-DL class descriptions, individual-valued properties, data-valued properties, OWL same individuals, OWL different individuals, or the specific built-in functions.
 
         | C(i) | R(i, j) | D(v) | U(i,v) | builtIn(p, v1,…,vn) | i = j | i ≠ j |
 
@@ -63,7 +64,7 @@ In this example, if an individual (?x) is of the class - person and has property
 
 ### SWRL is Monotonic:
 
-* SWRL does not Support Negated Atoms [3](https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf)
+* SWRL does not Support [Negated Atoms](https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf)
 
 #### Example3.1:
 
