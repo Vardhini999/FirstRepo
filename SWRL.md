@@ -21,7 +21,7 @@ Even with various powerful data modelling and knowledge representation standards
 SWRL rules are typically an implication between an antecedent (body) and consequent (head). This can be interpreted as: whenever the conditions specified in the antecedent hold, then the conditions specified in the consequent must also hold [1].
 a human readable syntax rule has the form:
 
- | antecedent (body) ⇒ consequent (head) |
+  `antecedent (body) ⇒ consequent (head)`
 
 where both antecedent and consequent are conjunctions of atoms (assertions) which can contain a combination of OWL constructs, written a1 ∧ ... ∧ an. 
 Variables are indicated using the standard convention of prefixing them with a question mark (e.g., ?x)
